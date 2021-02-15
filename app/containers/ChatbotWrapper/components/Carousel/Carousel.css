@@ -1,0 +1,36 @@
+.learning-options-container {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.learning-option-button {
+  padding: 0.5rem;
+  border-radius: 25px;
+  background: transparent;
+  border: 1px solid green;
+  margin: 3px;
+}
+
+.carousel-back-btn,
+.carousel-next-btn{
+  width: 30px;
+  height: 30px;
+  border: none;
+}
+
+.carousel-back-btn{
+  background-size: contain;
+  background: rgba(0, 90, 146, 0.75) url("../../../../images/back.png") no-repeat center center;
+  top: 50%;
+  left: 0;
+  transform: translateY(-148px) translateX(-120px);
+}
+
+.carousel-next-btn{
+  background-size: contain;
+  background: rgba(0, 90, 146, 0.75) url("../../../../images/next.png") no-repeat center center;
+  top: 50%;
+  right: 0;
+  transform: translateY(-148px) translateX(120px);
+}

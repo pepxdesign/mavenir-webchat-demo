@@ -1,0 +1,22 @@
+.learning-options-container {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.learning-option-button {
+  padding: 0.5rem;
+  border-radius: 25px;
+  background: transparent;
+  border: 1px solid green;
+  margin: 3px;
+}
+
+.learning-option-button.btn-item:disabled {
+  color: #8B8B8B !important;
+  background-color: #F7F7F7 !important;
+  border: 1px solid #8B8B8B !important;
+  cursor: default !important;
+}
+
+
